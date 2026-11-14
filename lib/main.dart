@@ -1075,12 +1075,12 @@ class NewGameDialog extends StatefulWidget {
 }
 
 class _NewGameDialogState extends State<NewGameDialog> {
-  GameType selectedGameType = GameType.hearts;
+  GameType selectedGameType = GameType.scum;
 
   @override
   void initState() {
     super.initState();
-    selectedGameType = widget.gameType ?? GameType.hearts;
+    selectedGameType = widget.gameType ?? GameType.scum;
   }
 
   @override
